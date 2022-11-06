@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/menuHg.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="sidebar">
+        <ul class="ul"> 
+            <li>
+                <a class="logo" href="menuHome.html">                    
+                    <span class="navLogo">L<b class="i">i</b>bellum</span>
+                    <img src="imagens/Libellum.png" alt="">
+                </a>
+            </li>      
+            <li>
+                <a class="icone" href="menuHome.html">
+                    <i class='bx bx-home' ></i>
+                    <span class="side-item">Home</span>
+                </a>
+            </li>
+            <li>
+                <a class="icone" href="menuHg.html">
+                    <i class='bx bx-task' ></i>
+                    <span class="side-item">Nova Reunião</span>
+                </a>
+            </li>
+            <li>
+                <a class="icone" href="menuProjetos.html">
+                    <i class='bx bxs-terminal'></i>
+                    <span class="side-item">Novo Projeto</span>
+                </a>
+            </li>
+          <!---<li>
+                <a class="icone" href="suporte.html">
+                    <i class='bx bx-support'></i>
+                    <span class="side-item">Suporte</span>
+                </a>
+            </li>-->
+            <!----<li>
+                <a class="icone" href="#">
+                    <i class='bx bxs-message-alt-dots' ></i>
+                    <span class="side-item">Mensagens</span>
+                </a>
+            </li>-->
+            <!---<li>
+                <a class="icone" href="#">
+                    <i class='bx bxs-cog' ></i>
+                    <span class="side-item">Configuração</span>
+                </a>
+            </li>-->
+            <li class="sair">
+                <a class="icone" href="loginKVN.html">
+                    <i class='bx bxs-log-out'></i>
+                    <span  class="side-item">Sair</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <h2 class="titulo">Projetos</h2>
+        <br>
+        <P class="subtitulo" >Registro Versão de Projetos.</P>
+    </div>
+    <form>
+            <div class="campo">
+                <labe class="sobrenome">Titulo do projeto:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>   
+            </div>
+            <br>
+            <label>Responsável: </label>
+        <fieldset class="grupo">
+            
+            <div class="campo1">
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            
+                <labe class="sobrenome">Sobrenome</label>
+                 <input type="text" name="sobrenome" id="sobrenome" required>   
+            </div>
+    
+        </fieldset> 
+        <div class="grupo3">
+            <td> <label for="">Data de inicio: </label>
+                <input type="number"name="dia"size="2"maxlength="2"placeholder="dd"/>
+                <input type="number"name="mes"size="2"maxlength="2"placeholder="mm">
+                <input type="number" name="ano" size="4"maxlength="4" placeholder="aaaa"/>
+            </td>
+        </div>
+        <div class="grupo4">    
+            <td> <label for="">Data de fim: </label>
+                <input type="number"name="dia"size="2"maxlength="2"placeholder="dd"/>
+                <input type="number"name="mes"size="2"maxlength="2"placeholder="mm">
+                <input type="number" name="ano" size="4"maxlength="4" placeholder="aaaa"/>
+            </td>
+        </div>
+            <td>
+                <label for="">Status: </label>
+                <select name="status">
+                    <option value="on">Em Andamento.</option>
+                    <option value="of">Terminado.</option>
+                </select>
+            </td>    
+        </div>
+        <div class="campo">
+            <br>
+            <label> Descreva sobre os últimos acontecimentos: </label>
+            <br>
+            <textarea name="registro" id="registro" cols="100" rows="12"></textarea>
+        </div>
+        <button class="enviar" type="submit">Registrar</button>
+    </form>
+</body>
+</html>
+    
+</body>
+</html>

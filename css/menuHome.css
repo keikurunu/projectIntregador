@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+body {
+  background: #f2f2f2;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background: black;
+  width: 90px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+  transition: width 0.2s linear;
+  font-family: "Cairo", sans-serif;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 10px 0 10px;
+}
+.logo img {
+  width: 47px;
+  height: 60px;
+  margin: 25px;
+}
+.navLogo {
+  font-family: "Cairo", sans-serif;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  color: #ffff;
+  display: none;
+  width: 100px;
+  transition: 600ms;
+}
+.i {
+  font-family: "Cairo", sans-serif;
+  color: #138550;
+}
+.icone {
+  position: relative;
+  color: black;
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+}
+.bx {
+  color: #138550;
+  text-decoration-color: #ffff;
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.side-item {
+  color: #ffff;
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+li:hover {
+  background: #4d4d4d;
+}
+.sidebar:hover {
+  background-color: #0c0c0c;
+  width: 260px;
+  transition: all 0.3s ease;
+}
+.sidebar:hover .navLogo {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.sidebar:hover .logo img {
+  width: 47px;
+  height: 60px;
+  margin: 25px;
+}
+.sair {
+  position: absolute;
+  bottom: 0;
+}
+.link-nav-1 {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 3px;
+  transition: 0.4s ease;
+}
+.link-nav-2 {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 3px;
+  transition: 0.4s ease;
+}
+.link-nav-1:hover {
+  background-color: #eee;
+}
+.link-nav-2:hover {
+  background-color: #eee;
+}
+
+.titulo {
+  font-family: "Cairo", sans-serif;
+  margin-left: 20%;
+}
+.subtitulo {
+  font-family: "Cairo", sans-serif;
+  margin-left: 20%;
+  font-size: large;
+}
+
+form {
+  margin-left: 25%;
+  margin-top: 40px;
+  display: block;
+}
+label,
+.sobrenome {
+  font-family: "Cairo", sans-serif;
+}
+#nome,
+#sobrenome,
+#registro button {
+  border-radius: 6px;
+}
+.grupo {
+  padding: 2px;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 0;
+}
+.reuni {
+  width: 37%;
+  height: auto;
+  margin-left: 25%;
+  padding: 20px;
+}
+h1 {
+  font-family: "Cairo", sans-serif;
+  margin-left: 20%;
+}
+
+.meio {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 30px;
+}
+.meio a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 18%;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px -12px black;
+  transition: 0.2s ease;
+}
+.meio a:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+.anota {
+  width: 300px;
+}
+p {
+  font-family: "Cairo", sans-serif;
+}

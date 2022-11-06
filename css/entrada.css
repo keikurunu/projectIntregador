@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: #f2f2f2;
+}
+header {
+  background-color: black;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 24px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  margin: 5px 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarText {
+  font-size: 18px;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-family: "Cairo", sans-serif;
+  transition: 0.2 ease;
+}
+.navbarTextI {
+  text-decoration: none;
+  color: #007940;
+  font-family: "Cairo", sans-serif;
+  transition: 0.2 ease;
+}
+.navbarText:hover {
+  color: #f0f0f0;
+}
+.navbarTextI:hover {
+  color: #007940;
+}
+.image_icon {
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.imagem_entrada {
+  height: 700px;
+  width: 450px;
+}
+.container_1 {
+  display: flex;
+  flex-direction: row;
+}
+.imagem_entrada {
+  height: 600px;
+  width: 550px;
+}
+.image_roda {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 100%;
+}
+.container_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+footer {
+  background-color: black;
+  padding: 25px;
+}
+footer h1 {
+  text-align: end;
+}
+.bx {
+  font-size: 30px;
+  margin-top: 5px;
+}
+.cItem {
+  box-shadow: rgba(0, 0, 0, 0.3);
+  background-color: #007940;
+  height: 490px;
+}
+.cImg {
+  height: 100%;
+  object-fit: contain;
+}
+
+/*modo noturno*/
+.darkMode {
+  margin-left: 40px;
+}
+body.dark {
+  background: #232c35;
+  color: #fff;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.labelChk {
+  background-color: #172126;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  transform: scale(0.9);
+  padding: 5px;
+  height: 38px;
+  width: 67px;
+}
+
+.labelChk .ball {
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  height: 29px;
+  width: 29px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .labelChk .ball {
+  transform: translateX(30px);
+}
+i {
+  color: #007940;
+}

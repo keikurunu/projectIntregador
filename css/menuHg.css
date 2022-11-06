@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+body {
+  background: #f2f2f2;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(112, 112, 112);
+  font-size: 18px;
+  font-family: "Cairo", sans-serif;
+}
+.nav {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background: black;
+  width: 90px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+  transition: width 0.2s linear;
+  font-family: "Cairo", sans-serif;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 10px 0 10px;
+}
+.logo img {
+  width: 47px;
+  height: 60px;
+  margin: 25px;
+}
+.navLogo {
+  font-family: "Cairo", sans-serif;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  color: #ffff;
+  display: none;
+  width: 100px;
+  transition: 600ms;
+}
+.i {
+  font-family: "Cairo", sans-serif;
+  color: #138550;
+}
+.icone {
+  position: relative;
+  color: black;
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+}
+.bx {
+  color: #138550;
+  text-decoration-color: #ffff;
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.side-item {
+  color: #ffff;
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+li:hover {
+  background: #4d4d4d;
+}
+.sidebar:hover {
+  background-color: #0c0c0c;
+  width: 260px;
+  transition: all 0.3s ease;
+}
+.sidebar:hover .navLogo {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.sidebar:hover .logo img {
+  width: 47px;
+  height: 60px;
+  margin: 25px;
+}
+.sair {
+  position: absolute;
+  bottom: 0;
+}
+.link-nav-1 {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 3px;
+  transition: 0.4s ease;
+}
+.link-nav-2 {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 3px;
+  transition: 0.4s ease;
+}
+.link-nav-1:hover {
+  background-color: #eee;
+}
+.link-nav-2:hover {
+  background-color: #eee;
+}
+
+.titulo {
+  font-family: "Cairo", sans-serif;
+  margin-left: 20%;
+}
+.subtitulo {
+  font-family: "Cairo", sans-serif;
+  margin-left: 20%;
+  font-size: large;
+}
+.campo {
+  margin: 0;
+}
+form {
+  margin-left: 25%;
+  margin-top: 40px;
+  display: block;
+}
+label,
+.sobrenome {
+  font-family: "Cairo", sans-serif;
+}
+#nome,
+#sobrenome,
+#registro button {
+  border-radius: 6px;
+}
+.grupo {
+  display: flex;
+  align-content: space-between;
+  gap: 10px;
+  padding: 15px;
+  gap: 18px;
+  border: 0;
+}
+.grupo2 input,
+select {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 4px;
+}
+.grupo3 {
+  margin: 0;
+  padding: 10px;
+}
+.grupo3 input {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px;
+}
+.grupo4 {
+  padding: 10px;
+  margin: 0;
+}
+.grupo4 input {
+  gap: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px;
+}
+.radio {
+  margin-top: 10px;
+  display: flex;
+  gap: 35px;
+}
+
+#registro {
+  font-family: "PT Sans", sans-serif;
+}
+.enviar {
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 3px;
+  margin-top: 10px;
+  transition: 0.4s ease;
+}
+
+.enviar:hover {
+  background-color: rgb(107, 107, 107);
+}
+.grupo2 {
+  display: flex;
+  align-content: space-between;
+  gap: 18px;
+  padding: 15px;
+  font-family: "Cairo", sans-serif;
+}

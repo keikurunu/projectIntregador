@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+
+h1 {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+.navbarText {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-family: "Cairo", sans-serif;
+}
+.navbarTextI {
+  text-decoration: none;
+  color: #007940;
+  font-family: "Cairo", sans-serif;
+}
+.navbarText:hover {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-family: "Cairo", sans-serif;
+}
+.navbarTextI:hover {
+  text-decoration: none;
+  color: #007940;
+  font-family: "Cairo", sans-serif;
+}
+.link-nav-2:hover {
+  background-color: #eee;
+}
+.botao:hover {
+  background-color: #eee;
+}
+.link-nav-2 {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 3px;
+  transition: 0.4s ease;
+}
+.caixa_pai {
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(19, 133, 80);
+  background: linear-gradient(
+    153deg,
+    rgba(19, 133, 80, 1) 19%,
+    rgba(117, 233, 66, 1) 71%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.caixa_filha {
+  box-shadow: rgb(0, 0, 0, 0.24) 0px 03px 8px;
+  padding: 15px;
+  font-family: "Cairo", sans-serif;
+  border-radius: 5px;
+  background: #f2f2f2;
+}
+.div_botao {
+  display: flex;
+  justify-content: space-around;
+}
+.botao {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: rgb(172, 181, 181);
+  font-family: "Cairo", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: black;
+  font-size: 18px;
+  font-family: "Cairo", sans-serif;
+}
+footer {
+  background-color: rgb(56, 56, 56);
+  padding: 25px;
+}
+.registro,
+label,
+input,
+select,
+table,
+legend {
+  border-radius: 5px;
+  margin: 7px;
+}
+select,
+input {
+  border: 1px inset black;
+  padding-left: 5px;
+}
